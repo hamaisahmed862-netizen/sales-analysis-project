@@ -1,0 +1,35 @@
+📊Sales Performance Insights
+Technology is the highest revenue-generating category, contributing approximately 4.74M in total sales.
+Furniture and Office Supplies follow closely but show lower efficiency in terms of profitability.
+
+
+💰 Profitability Insights
+Office Supplies has the highest average profit margin among all categories.
+Furniture shows very low profit margins despite strong sales, indicating cost or discount inefficiencies.
+
+
+📉 Discount Impact Analysis
+Higher discount values are strongly associated with negative profit.
+Excessive discounting (above ~0.3) leads to significant losses, highlighting inefficient pricing strategies.
+
+
+📦 Product Performance
+High-end electronic products (Smartphones, Copiers) dominate total sales.
+A small group of top products contributes a major share of revenue (Pareto effect).
+
+
+📈 Sales Trend Analysis
+Sales show consistent growth from 2011 to 2014.
+Overall business performance is improving year-over-year.
+
+
+🌍 Regional Performance
+Central region leads in total sales.
+Africa and West regions also show strong contributions.
+Canada has the lowest sales contribution among regions.
+
+
+
+🧠 Key Business Conclusion
+Revenue growth is strong, but profitability varies significantly across categories.
+Discount strategy needs optimization to improve overall profit efficiency.
