@@ -92,6 +92,4 @@ File: `dashboard.png`
 ## 👤 Author
 Hamais Ahmed  
 Aspiring Data Analyst | Python | SQL | Power BI
-│
-└── Excel/
-└── excel_dash.xlsx
+
