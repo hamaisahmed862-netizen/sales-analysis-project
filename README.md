@@ -1,157 +1,118 @@
-# 📊 Global Superstore Sales Analysis Project
+# 📊 Sales Analysis Project (Python + SQL + Power BI)
 
-## 🚀 Project Overview
+## 📌 Overview
+This is an end-to-end data analytics project that analyzes sales data using Python, SQL, Excel, and Power BI.  
+The goal is to extract meaningful business insights such as sales trends, profit analysis, discount impact, and category performance.
 
-This project is an end-to-end **data analytics solution** built using a real-world retail dataset (Global Superstore). It focuses on analyzing sales performance, profitability, discount behavior, and regional trends using **Python and Excel dashboards**.
-
-The objective is to demonstrate practical skills in **data cleaning, exploratory data analysis (EDA), visualization, and business insight generation**.
-
----
-
-## 🧠 Business Problem
-
-Retail companies often struggle to understand:
-
-* Which products generate the most revenue and profit
-* How discounts impact profitability
-* Which regions and categories drive business growth
-* How sales evolve over time
-
-This project answers these questions using data-driven analysis.
+This project simulates a real-world data analyst workflow from raw data → cleaning → transformation → SQL analysis → visualization → dashboard creation.
 
 ---
 
-## 🧰 Tools & Technologies
-
-* Python (Pandas, Matplotlib)
-* Excel (Pivot Tables, KPI Dashboard)
-* Power Query (Data Cleaning)
-* Git & GitHub (Version Control)
+## 🛠️ Tools & Technologies
+- Python (Pandas, Matplotlib)
+- SQL (SQLite)
+- Power BI (Dashboarding & Visualization)
+- Excel (Data exploration & reporting)
+- Git & GitHub (Version control)
 
 ---
 
-## 📁 Project Structure
-
-```
+## 📂 Project Structure
 sales-analysis-project/
 │
+├── dashboard.png
+├── sqlqueries.sql
+├── requirements.txt
+├── README.md
+│
 ├── data/
-│   ├── raw/                 # Original dataset
-│   └── processed/          # Cleaned dataset
+│ ├── raw/
+│ ├── processed/
+│
+├── scripts/
+│ └── load_to_sql.py
 │
 ├── notebooks/
-│   └── analysis.py         # Python analysis script
+│ └── analysis.py
 │
 ├── outputs/
-│   ├── charts/             # Visualizations
-│   └── reports/            # Insights report
+│ ├── charts/
+│ └── reports/
 │
-├── excel/
-│   └── Excel-dashboard.xlsx
-│
-├── requirements.txt
-└── README.md
-```
+└── Excel/
+└── Excel_dashboard.xlsx
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+## 🐍 Python Analysis (Notebooks)
+Located in `notebooks/analysis.py`
 
-The dataset was cleaned using Python:
-
-* Converted incorrect data types (Sales, Profit, Quantity)
-* Standardized column names (removed spaces and special characters)
-* Handled missing values
-* Converted date columns into datetime format
-* Created new features:
-
-  * Profit Margin
-  * Year
-  * Month
+### Work done:
+- Data cleaning and preprocessing
+- Handling missing values
+- Exploratory Data Analysis (EDA)
+- Sales trends over time
+- Profit margin analysis
+- Discount impact analysis
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## 🗄️ SQL Analysis
+Located in `sqlqueries.sql`
 
-The following analyses were performed:
-
-### 📦 Category Analysis
-
-* Technology is the highest revenue-generating category
-* Furniture shows strong sales but lower profitability
-
-### 💰 Profitability Analysis
-
-* Office Supplies has the highest profit margin
-* Some categories generate high sales but low profit efficiency
-
-### 📉 Discount Impact
-
-* Higher discounts significantly reduce profit
-* Excessive discounting leads to negative profitability in several cases
-
-### 🌍 Regional Performance
-
-* Central region leads in total sales
-* Canada contributes the lowest sales among all regions
-
-### 📈 Time Series Analysis
-
-* Sales show consistent growth from 2011 to 2014
-
-### 🏆 Product Analysis
-
-* A small number of products contribute a large share of total revenue (Pareto principle)
+### Queries include:
+- Sales by category
+- Sales by year
+- Profit analysis
+- Discount impact on profit
+- Aggregated business views
 
 ---
 
-## 📊 Dashboard (Excel)
+## ⚙️ Data Loading Script
+Located in `scripts/load_to_sql.py`
 
-An interactive Excel dashboard was created containing:
-
-* Pivot Tables
-* KPI Metrics
-* Category & Region Analysis
-* Sales & Profit summaries
-
-File: `Excel-dashboard.xlsx`
+### Purpose:
+- Load raw CSV data into SQLite database
+- Prepare data for SQL-based analysis
 
 ---
 
-## 📈 Key Insights
+## 📊 Power BI Dashboard
+File: `dashboard.png`
 
-* Technology category is the primary revenue driver
-* Profitability is not directly proportional to sales volume
-* Discount strategy heavily impacts overall profit
-* Regional performance varies significantly across markets
-* A small set of products drives majority of revenue
-
----
-
-## 🧠 Skills Demonstrated
-
-* Data Cleaning & Preprocessing
-* Exploratory Data Analysis (EDA)
-* Feature Engineering
-* Data Visualization
-* Business Intelligence Thinking
-* Excel Dashboarding
-* GitHub Project Management
+### Dashboard includes:
+- KPI Cards (Total Sales, Profit, Profit Margin)
+- Sales trend over time (Line chart)
+- Category-wise performance (Bar chart)
+- Discount impact visualization
+- Interactive filters (slicers for year/category)
 
 ---
 
-## 📌 Conclusion
-
-This project demonstrates how raw retail data can be transformed into meaningful business insights using Python and Excel. It highlights the importance of data-driven decision-making in improving profitability and understanding customer behavior.
-
----
-
-## 👨‍💻 Author
-
-**Hamais Ahmed**
+## 📈 Key Business Insights
+- Technology category generates highest revenue
+- Higher discounts significantly reduce profit margins
+- Sales show steady growth trend over time
+- Certain categories consistently outperform others in profitability
 
 ---
 
-## 📌 Note
+## 📊 Outputs Folder
+- Charts generated using Python
+- Analytical reports and summaries
 
-This project is part of my data analytics portfolio and showcases an end-to-end workflow from raw data to actionable business insights.
+---
+
+## 📦 Excel Analysis
+File: `Excel/excel_dash.xlsx`
+
+- Contains additional exploratory analysis and dashboard support
+
+---
+
+## 🚀 How to Run This Project
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/sales-analysis-project.git
