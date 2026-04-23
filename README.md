@@ -36,6 +36,9 @@ sales-analysis-project/
 ├── outputs/
 │ ├── charts/
 │ └── reports/
+│
+└── Excel/
+└── Excel_dashboard.xlsx
 
 ---
 
